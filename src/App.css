@@ -1,0 +1,36 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+img {
+  width: 200px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
